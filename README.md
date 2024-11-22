@@ -7,3 +7,7 @@ The next step was to apply encoding to categorical values, one hot encoding was 
 The final step was to apply ML model Random-Forest and to judge the performance with evaluation metrics. The testing accuracy stood at **96%** thus proving that the model was well trained. The difference between Traininng and Testing Accuracy was less and thus proving that there was no overfitting.
 
 **Brain Stroke**
+This project involves predicting whether a particular patient will suffer from brain stroke given all the different factors. The project follolwed a similar outline where the missing values were treated with median if it was a numerical value and with mode if it was categorical.
+The next step was to drop the columns with high correlation.
+Encoding was applied to convert the entire data into numerical values for training the model.
+Multiple ML models were used and had a varying accuracy. 
